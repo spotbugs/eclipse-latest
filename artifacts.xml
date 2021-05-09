@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1620117664994'/>
+    <property name='p2.timestamp' value='1620519387638'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,19 +11,19 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.2.4.202105040839-32ddc73'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.2.4.202105090015-2150098'>
       <properties size='4'>
-        <property name='artifact.size' value='7742'/>
-        <property name='download.size' value='7742'/>
-        <property name='download.md5' value='7054f7febc4c071b23ad4fc660b6009c'/>
+        <property name='artifact.size' value='7740'/>
+        <property name='download.size' value='7740'/>
+        <property name='download.md5' value='a076bd8a4cc4b7e402eb253626abbdcb'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.2.4.202105040839-32ddc73'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.2.4.202105090015-2150098'>
       <properties size='3'>
         <property name='artifact.size' value='10389289'/>
         <property name='download.size' value='10389289'/>
-        <property name='download.md5' value='9d5a53ec71973b417f7352d53aded8b1'/>
+        <property name='download.md5' value='45062302e2aac01e48c697ad9b1c8671'/>
       </properties>
     </artifact>
   </artifacts>
