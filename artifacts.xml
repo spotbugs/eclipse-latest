@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1623547349223'/>
+    <property name='p2.timestamp' value='1623929901364'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,18 +11,18 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.2.4.202106130121-0ddfa34'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.2.4.202106171137-e2daa30'>
       <properties size='3'>
-        <property name='artifact.size' value='10391728'/>
-        <property name='download.size' value='10391728'/>
-        <property name='download.md5' value='6040b8cef5e8525defbf7cb505dde67a'/>
+        <property name='artifact.size' value='10394587'/>
+        <property name='download.size' value='10394587'/>
+        <property name='download.md5' value='7f4c8e43b61ded0a324420fb558dae92'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.2.4.202106130121-0ddfa34'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.2.4.202106171137-e2daa30'>
       <properties size='4'>
-        <property name='artifact.size' value='7784'/>
-        <property name='download.size' value='7784'/>
-        <property name='download.md5' value='d87d7792a0244fe08af5c37a851d8e94'/>
+        <property name='artifact.size' value='7783'/>
+        <property name='download.size' value='7783'/>
+        <property name='download.md5' value='e2a56fdc490f806345582313ed9466d7'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
