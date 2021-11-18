@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1637111302201'/>
+    <property name='p2.timestamp' value='1637203496833'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,19 +11,19 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.5.1.202111170107-1ed3f42'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.5.1.202111180244-d259fc4'>
       <properties size='4'>
         <property name='artifact.size' value='7839'/>
         <property name='download.size' value='7839'/>
-        <property name='download.md5' value='7e36a30e339c0e5f47153747d7137024'/>
+        <property name='download.md5' value='e245fc49334dd8a331a05d9c8cd834d9'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.5.1.202111170107-1ed3f42'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.5.1.202111180244-d259fc4'>
       <properties size='3'>
-        <property name='artifact.size' value='10487736'/>
-        <property name='download.size' value='10487736'/>
-        <property name='download.md5' value='44406f324482cec6084171182dcedd86'/>
+        <property name='artifact.size' value='10487737'/>
+        <property name='download.size' value='10487737'/>
+        <property name='download.md5' value='dd0b5f257da359c0d2648ed283da0e32'/>
       </properties>
     </artifact>
   </artifacts>
