@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1651623409053'/>
+    <property name='p2.timestamp' value='1651623481807'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,19 +11,19 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.6.1.202205040016-79aba05'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.6.1.202205040017-beec2f5'>
+      <properties size='3'>
+        <property name='artifact.size' value='9081285'/>
+        <property name='download.size' value='9081285'/>
+        <property name='download.md5' value='d0e44e9135bda6bd34a05dbf774bf125'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.6.1.202205040017-beec2f5'>
       <properties size='4'>
         <property name='artifact.size' value='10348'/>
         <property name='download.size' value='10348'/>
-        <property name='download.md5' value='69e58a990a51c93ce4e8cd333cfa0a72'/>
+        <property name='download.md5' value='df109fe14946fc2e5d36ffe9c15428c0'/>
         <property name='download.contentType' value='application/zip'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.6.1.202205040016-79aba05'>
-      <properties size='3'>
-        <property name='artifact.size' value='9081284'/>
-        <property name='download.size' value='9081284'/>
-        <property name='download.md5' value='98013c6e1a78d195e10f6a14ce9cfc2f'/>
       </properties>
     </artifact>
   </artifacts>
