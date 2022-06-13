@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1654699279176'/>
+    <property name='p2.timestamp' value='1655079411826'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,19 +11,19 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.7.1.202206081440-c248e2b'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.7.1.202206130016-b9cce6a'>
       <properties size='4'>
-        <property name='artifact.size' value='10344'/>
-        <property name='download.size' value='10344'/>
-        <property name='download.md5' value='073b5ade17313770b7613f0cf2303aea'/>
+        <property name='artifact.size' value='10348'/>
+        <property name='download.size' value='10348'/>
+        <property name='download.md5' value='70489c1c4abe5b59236285ea459feb6c'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.7.1.202206081440-c248e2b'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.7.1.202206130016-b9cce6a'>
       <properties size='3'>
-        <property name='artifact.size' value='9087150'/>
-        <property name='download.size' value='9087150'/>
-        <property name='download.md5' value='d65d3d5b7cac230d57ad85fe880efd7a'/>
+        <property name='artifact.size' value='9087151'/>
+        <property name='download.size' value='9087151'/>
+        <property name='download.md5' value='50a02518fb89f34610d5d76e59faca8a'/>
       </properties>
     </artifact>
   </artifacts>
