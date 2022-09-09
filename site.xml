@@ -5,9 +5,9 @@
       Eclipse update site for SpotBugs.
    </description>
 
-   <feature url="features/com.github.spotbugs.plugin.eclipse_4.7.3.202209080051-daac360.jar"
+   <feature url="features/com.github.spotbugs.plugin.eclipse_4.7.3.202209090130-b119457.jar"
             id="com.github.spotbugs.plugin.eclipse"
-            version="4.7.3.202209080051-daac360">
+            version="4.7.3.202209090130-b119457">
       <category name="SpotBugs"/>
    </feature>
 
