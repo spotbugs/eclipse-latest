@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1671303405407'/>
+    <property name='p2.timestamp' value='1671303415506'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,19 +11,19 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.7.4.202212171855-616cc33'>
-      <properties size='3'>
-        <property name='artifact.size' value='11755330'/>
-        <property name='download.size' value='11755330'/>
-        <property name='download.md5' value='16c8d44d5bcc540c98ee05dcf07017fe'/>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.7.4.202212171855-63b5f7e'>
+      <properties size='4'>
+        <property name='artifact.size' value='11315'/>
+        <property name='download.size' value='11315'/>
+        <property name='download.md5' value='e19096d1bf8fb8d5e011c8cf64211db0'/>
+        <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.7.4.202212171855-616cc33'>
-      <properties size='4'>
-        <property name='artifact.size' value='11314'/>
-        <property name='download.size' value='11314'/>
-        <property name='download.md5' value='ad25c21fe173a00847961dd8c516e4cf'/>
-        <property name='download.contentType' value='application/zip'/>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.7.4.202212171855-63b5f7e'>
+      <properties size='3'>
+        <property name='artifact.size' value='11755326'/>
+        <property name='download.size' value='11755326'/>
+        <property name='download.md5' value='ed7368a4a7a80fc2e3b1f616fc644d24'/>
       </properties>
     </artifact>
   </artifacts>
