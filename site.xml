@@ -5,9 +5,9 @@
       Eclipse update site for SpotBugs.
    </description>
 
-   <feature url="features/com.github.spotbugs.plugin.eclipse_4.7.4.202305120120-aad5b8f.jar"
+   <feature url="features/com.github.spotbugs.plugin.eclipse_4.7.4.202305151701-d40bd4a.jar"
             id="com.github.spotbugs.plugin.eclipse"
-            version="4.7.4.202305120120-aad5b8f">
+            version="4.7.4.202305151701-d40bd4a">
       <category name="SpotBugs"/>
    </feature>
 
