@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1701106691323'/>
+    <property name='p2.timestamp' value='1701125043294'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,20 +11,20 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.8.2.202311271737-ea12303'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.8.2.202311272243-c7223d3'>
       <properties size='4'>
-        <property name='artifact.size' value='11885422'/>
-        <property name='download.size' value='11885422'/>
-        <property name='download.checksum.sha-512' value='7e268d55c359aa33d2bd8a800038f631fed7c3ecd8e1688c5daf212f431325d40f72c11f33167747b39f1ca15daef3b3c2ed820981b534606f31a235fa9baacb'/>
-        <property name='download.checksum.sha-256' value='73dbd227d14ceeec4ef9f981ec7003dca24927925998b0e1ac13bcee6b7efc33'/>
+        <property name='artifact.size' value='11885427'/>
+        <property name='download.size' value='11885427'/>
+        <property name='download.checksum.sha-512' value='f4b009a28fe66db9b84fa1023171cc88ca74b220c744dcc1c01071357bce767c8338596e0615393b37bad8939194fa8994cc33a3ccdc1b7a5f16f5f9e05b1dcc'/>
+        <property name='download.checksum.sha-256' value='3c28bb3b9db9349d206a47453f25269cbabdbab860b790341c1359b889c827f5'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.8.2.202311271737-ea12303'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.8.2.202311272243-c7223d3'>
       <properties size='5'>
-        <property name='artifact.size' value='11314'/>
-        <property name='download.size' value='11314'/>
-        <property name='download.checksum.sha-512' value='d8ab2dfb8ac3fc691bcf210f7077d5e90ca0ae71d5bb7d1f2f63f2b8a4296370aa81eccdbf3093699326fea6bffbe73dc1c2a3acf3b785c96bafb942ed9a3ead'/>
-        <property name='download.checksum.sha-256' value='950df45bd77312f1b6c5bd02628aa2dded8d16d1ac2662f08d9f84d0477a3af7'/>
+        <property name='artifact.size' value='11313'/>
+        <property name='download.size' value='11313'/>
+        <property name='download.checksum.sha-512' value='d5775506a5f97754e864cb26abfcf250d923748a189aa51db8f8d6a1f5c30ffcf20907141510ddf5868eccc1da20364790821c346be1629c277b1aa07090cbb2'/>
+        <property name='download.checksum.sha-256' value='be758d8f5bca940c5eca5dac9987307505408ea4af71bba6bc8164560251f225'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
