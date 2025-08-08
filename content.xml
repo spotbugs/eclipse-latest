@@ -2,7 +2,7 @@
 <?metadataRepository version='1.2.0'?>
 <repository name='file:/D:/a/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1754618035572'/>
+    <property name='p2.timestamp' value='1754618037199'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <references size='2'>

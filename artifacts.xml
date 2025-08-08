@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/D:/a/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1754618035570'/>
+    <property name='p2.timestamp' value='1754618037196'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
