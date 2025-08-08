@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/D:/a/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1754615785188'/>
+    <property name='p2.timestamp' value='1754618035570'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,23 +11,23 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.9.5.202508080114-a5cd1cf'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.9.4.r202508080152-beff578'>
       <properties size='6'>
-        <property name='artifact.size' value='2387'/>
-        <property name='download.size' value='2387'/>
-        <property name='download.md5' value='22b3585d459419f0d993df1eb21b6393'/>
-        <property name='download.checksum.md5' value='22b3585d459419f0d993df1eb21b6393'/>
-        <property name='download.checksum.sha-256' value='a6acf224ffa5bf9a6b1afa373cce6f4cddbd7b2a2412fc21bbab868bc875851a'/>
+        <property name='artifact.size' value='2389'/>
+        <property name='download.size' value='2389'/>
+        <property name='download.md5' value='537c5c87a7c53003e42428075e6fcb7c'/>
+        <property name='download.checksum.md5' value='537c5c87a7c53003e42428075e6fcb7c'/>
+        <property name='download.checksum.sha-256' value='9f0f4b354674489e5f85a84d16b140e2e6793c1536079d179c040b68fcd2d8a1'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.9.5.202508080114-a5cd1cf'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.9.4.r202508080152-beff578'>
       <properties size='5'>
-        <property name='artifact.size' value='10284431'/>
-        <property name='download.size' value='10284431'/>
-        <property name='download.md5' value='53503ceefe48d8ef31c4f1daec83dc23'/>
-        <property name='download.checksum.md5' value='53503ceefe48d8ef31c4f1daec83dc23'/>
-        <property name='download.checksum.sha-256' value='c14316ba8fb8149c63fb808f5fbaf0cffee75efce582ffb696981d1300614e81'/>
+        <property name='artifact.size' value='10284401'/>
+        <property name='download.size' value='10284401'/>
+        <property name='download.md5' value='b19680d9e32a39f33fd9f16e08ed8a24'/>
+        <property name='download.checksum.md5' value='b19680d9e32a39f33fd9f16e08ed8a24'/>
+        <property name='download.checksum.sha-256' value='af204bf4c51acd13dfbd2741702ffa750d5dabc12f5eb3a20515643c6c0f9529'/>
       </properties>
     </artifact>
   </artifacts>
