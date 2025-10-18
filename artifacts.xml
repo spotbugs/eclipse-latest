@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1760810072885'/>
+    <property name='p2.timestamp' value='1760830146270'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,23 +11,23 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.9.10.202510181753-6d98c64'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.9.10.202510182327-b7aa3dc'>
       <properties size='6'>
         <property name='artifact.size' value='2337'/>
         <property name='download.size' value='2337'/>
-        <property name='download.md5' value='72661475bd4194d0c1cf1100926b0620'/>
-        <property name='download.checksum.md5' value='72661475bd4194d0c1cf1100926b0620'/>
-        <property name='download.checksum.sha-256' value='2410f51c5b5255499ad866a35a0593e853de97dc678d706cbbee038d1b85d0de'/>
+        <property name='download.md5' value='db949e0b78122910270713ae129cb654'/>
+        <property name='download.checksum.md5' value='db949e0b78122910270713ae129cb654'/>
+        <property name='download.checksum.sha-256' value='89abdd68e4ba4005672de2dfdf31a1cea27868b31ca39cfbb5001daba2eaa099'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.9.10.202510181753-6d98c64'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.9.10.202510182327-b7aa3dc'>
       <properties size='5'>
-        <property name='artifact.size' value='10800521'/>
-        <property name='download.size' value='10800521'/>
-        <property name='download.md5' value='d224e05d30660f58d8156760eef1a612'/>
-        <property name='download.checksum.md5' value='d224e05d30660f58d8156760eef1a612'/>
-        <property name='download.checksum.sha-256' value='72e0cd411c44721759c19a5fe6f86a9b1aefed4e525272c69cc1c1c76c36c448'/>
+        <property name='artifact.size' value='10800520'/>
+        <property name='download.size' value='10800520'/>
+        <property name='download.md5' value='dff7d94bc88ebe6c94cfda8a139cc36b'/>
+        <property name='download.checksum.md5' value='dff7d94bc88ebe6c94cfda8a139cc36b'/>
+        <property name='download.checksum.sha-256' value='b8b670892eba597168ba4a1b2b83bfcbaec6298abaffd2a170a85927a5e9dd40'/>
       </properties>
     </artifact>
   </artifacts>
