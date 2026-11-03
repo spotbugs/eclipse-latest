@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='file:/home/runner/work/spotbugs/spotbugs/eclipsePlugin/build/site/eclipse-daily/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1793566068081'/>
+    <property name='p2.timestamp' value='1793664890600'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
@@ -11,21 +11,21 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.10.6.202611012046-f3e2203'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.10.6.202611030013-2744b18'>
       <properties size='5'>
         <property name='artifact.size' value='2337'/>
         <property name='download.size' value='2337'/>
-        <property name='download.checksum.sha-512' value='ef6ccffff7a276f182b01619f0d8b652d37da8c2492b0ec2bd5500545d03bec108758707754b6e826baff33bed81d522683268055e1122aa07f9439a82274426'/>
-        <property name='download.checksum.sha-256' value='a39e91f66b2bec28e990b8b84c045d1006264088576e2fc246df15e9b55fa018'/>
+        <property name='download.checksum.sha-512' value='677cfc539bf9070076e628deb3fcd199bb327e010e4f59e88567becd18003e32712376210f5399761d2365c9d9f7f4959ad7b4f2ee96514ec0be4c1fa0cab6db'/>
+        <property name='download.checksum.sha-256' value='29de5d41287ec405824920dc5cae557126270128bdd0210e9c6843669cf5f117'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.10.6.202611012046-f3e2203'>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.10.6.202611030013-2744b18'>
       <properties size='4'>
-        <property name='artifact.size' value='10989063'/>
-        <property name='download.size' value='10989063'/>
-        <property name='download.checksum.sha-512' value='1309f14feb9b80816ee2210f2b3387ce5a674b479aff3819af40d682c46c12f30cecc1291d744a58b2e26d80f26c8dfe8ac0470d3dc37a52704ac36b40a9652c'/>
-        <property name='download.checksum.sha-256' value='6a381de8733cea334a46b254cfeb3c1b88f2018e6ea96aac60009848b82c087d'/>
+        <property name='artifact.size' value='10989064'/>
+        <property name='download.size' value='10989064'/>
+        <property name='download.checksum.sha-512' value='a28dd03ebc8db96b196e91615c5b83caaa5008647f3ccd8c504da404e045b2e9aebcbcfadb14431655f978b52d9554509728b8ddcf30fafff7977cb41a0c2dd1'/>
+        <property name='download.checksum.sha-256' value='9519d20c646ed039dc6bf4749ef326ae30dbdad4cb124095699d6035d954abfa'/>
       </properties>
     </artifact>
   </artifacts>
